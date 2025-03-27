@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(186, 204, 219);
 }
 
 header {
@@ -37,4 +38,13 @@ nav ul li a:hover{
 .logo{
     max-width: 50px;
     padding-right: 15px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
