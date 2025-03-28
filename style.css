@@ -70,3 +70,7 @@ footer {
     text-align: center;
     width: 100%;
 }
+.img1 {
+    width: 30%; 
+    height: 30px; /* Mantém a proporção */
+}
