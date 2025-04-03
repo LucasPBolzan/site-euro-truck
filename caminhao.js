@@ -13,7 +13,7 @@ function testarCaminhao() {
 
     const imgParado = "fotos-caminnhoes/desligado.jpg";
     const gifLigando = "gifs-caminhoes/ligando.gif";
-    const gifFarol = "gifs-caminhoes/farol.gif";
+    const imgFarol = "fotos-caminnhoes/farol.png";
     const gifPisca = "gifs-caminhoes/pisca.gif";
 
     let ligarAtivo = false;
@@ -39,7 +39,7 @@ function testarCaminhao() {
     if (btnFarol) {
         btnFarol.addEventListener("click", function() {
             if (!farolAtivo) {
-                caminhaoGif.src = gifFarol;
+                caminhaoGif.src = imgFarol;
                 somFarol.play();
                 farolAtivo = true;
             } else {
