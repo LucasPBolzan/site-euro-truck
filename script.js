@@ -48,3 +48,14 @@ function abrirImagemGrande() {
     });
 }
 abrirImagemGrande();
+
+function voltarAoTopo() {
+    const logo = document.querySelector(".logo");
+    logo.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" 
+        });
+    });
+}
+voltarAoTopo();
