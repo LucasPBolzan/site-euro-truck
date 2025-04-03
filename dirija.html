@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Euro Truck Simulator Portfólio | Sobre</title>
+    <title>Euro Truck Simulator Portfólio | Teste o Caminhão</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,30 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="dirija.html">Teste o caminhão</a></li>
                 <li><a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/" target="_blank">Comprar</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="dirija.html">Teste o caminhão</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
+        <div class="teste-container">
+            <h1>Teste o Caminhão</h1>
+            <p>Clique nos botões para testar as funções do caminhão!</p>
+            <div class="caminhao-display">
+                <img id="caminhao-gif" src="fotos-caminnhoes/desligado.jpg" alt="Caminhão">
+            </div>
+            <div class="botoes-controle">
+                <button id="ligar">Ligar</button>
+                <button id="farol">Farol</button>
+                <button id="pisca">Pisca</button>
+                <button id="buzina">Buzina</button>
+            </div>
+        </div>
     </main>
     <footer>
         <h4>Obrigado por visitar o nosso portfólio - Lucas e Wagner</h4>
     </footer>
+    <script src="caminhao.js"></script>
 </body>
 </html>
