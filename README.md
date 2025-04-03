@@ -7,7 +7,6 @@ Este projeto é um portfólio dedicado ao jogo **Euro Truck Simulator 2**, desen
 O site é composto por várias páginas e recursos:
 
 - **`index.html`**: Página inicial com informações gerais sobre o jogo, incluindo descrição, funcionalidades e imagens.
-- **`sobre.html`**: Página com informações sobre o portfólio e agradecimentos.
 - **`galeria.html`**: Galeria de imagens com fotos de caminhões e elementos do jogo.
 - **`style.css`**: Arquivo de estilos que define o design e a aparência do site.
 - **Pasta `fotos-caminnhoes/`**: Contém imagens de caminhões para a galeria.
