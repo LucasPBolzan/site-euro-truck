@@ -69,11 +69,9 @@ function testarCaminhao() {
     if (btnBuzina) {
         btnBuzina.addEventListener("click", function() {
             if (!buzinaAtivo) {
-                caminhaoGif.src = imgParado; 
                 somBuzina.play();
                 buzinaAtivo = true;
             } else {
-                caminhaoGif.src = imgParado;
                 somBuzina.pause();
                 somBuzina.currentTime = 0;
                 buzinaAtivo = false;
